@@ -1,0 +1,57 @@
+@media screen and(max-width = 500px){
+    .backgroundImageContainer{
+        width: 100px;
+        background-color: rgb(155, 121, 71);
+                  
+    }
+
+    .backgroundImageContainer h2{
+        color: rgb(210, 39, 39);
+        align-self: center;
+    
+    }
+
+}
+.backgroundImageContainer{
+    position: sticky;
+    height: 100vh;
+       
+    }
+
+
+.backgroundImageContainer img{
+    width: 100%;
+    margin: none;
+    z-index: -1;
+    position: absolute;
+   
+}
+.backgroundImageContainer h6{
+    position: relative;
+    color: red;
+}
+
+.backgroundImageContainer h2{
+    color: white;
+    align-self: center;
+
+}
+
+.centeredText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centeredText h2{
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    color: red;
+    position: absolute;
+}
+
+.AddressInfo{
+    margin-top: 100vh;
+}
